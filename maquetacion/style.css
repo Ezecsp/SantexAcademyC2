@@ -1,0 +1,174 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+  
+p{
+    margin-right: 35px;
+}
+  
+h1{
+    margin: 0px 190px;
+    text-align: center;
+    color: #201b24;
+    font-weight: 550;
+}
+  
+button{
+  font-size: 12px;
+}
+  
+button.redondo{
+    background-color: white;
+    border: 2px solid #050506;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+  
+#header{
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+  
+#header-right{
+    font-size: 12px;
+    font-weight: 500;
+}
+  
+.logo{
+    margin-left: 15px;
+}
+  
+#header-right img:hover{
+    filter: drop-shadow(0 0 0 #9E46FF);
+}
+  
+.logo-technology:hover{  
+    cursor: pointer;
+}
+  
+.logo.instagram{
+    height: 13px;
+    width: auto;
+}
+  
+.logo.linkedin{  
+    height: 22px;
+    width: auto;
+}
+  
+#introduction{
+    padding: 48px;
+}
+  
+#introduction-botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 3rem;
+}
+  
+button:hover{
+    cursor: pointer;
+}
+  
+.redondo.violeta{
+    margin-left: 30px;
+    color: #6b53f0;
+    border: 2px solid #6b53f0;
+}
+  
+.redondo.violeta:hover{
+    background-color: #6b53f0;
+    color: white;
+}
+  
+.redondo.negro:hover{
+    background-color: #201b24;
+    color: white;
+}
+  
+#introduction-text h1{  
+    padding: 2rem 6rem;
+    font-size: 1.8em;
+}
+  
+#header-right p:hover{  
+    color: #6b53f0;
+    cursor: pointer;  
+}
+
+#impacto{
+    background-color: #201B24;
+    color: white;
+    display: flex;
+    padding: 140px;
+    align-items: end;
+}
+  
+#impacto p{
+    font-size: 13px;
+}
+  
+.numbers h2{
+    font-size: 40px;
+}
+
+#foto{
+    height: auto;
+    margin-bottom: 0%;
+}
+
+#sticky{
+    position: static;
+}
+
+#programa{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:4rem;
+}
+
+#programa img{
+    border-radius: 0 20%;
+}
+
+#parrafos{
+    margin:1rem;
+    margin-top: 10%;
+}
+
+#pie{
+    background: #201B24;
+    padding: 4rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pie p{
+    color: white;
+    margin-left: 1rem;
+    margin-top: 0;
+}
+
+.logo-technology1{
+    filter: grayscale(1) invert(1);
+}
+
+.logo-instagram{
+    height: 13px;
+    width: auto;
+    filter: invert(1);
+}
+  
+.logo-linkedin{  
+    height: 22px;
+    width: auto;
+    filter: invert(1);
+}
+
